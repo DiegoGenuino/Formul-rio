@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    
+    height: 400px;
+}
+
+h1 {
+    color: white;
+    margin-left: 352px;
+    padding-top: 80px;
+    font-family: "Archivo", sans-serif;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 6%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+p {
+    color: #ffffff;
+    margin-left: 352px;
+    margin-top: 24px;
+    font-family: "Archivo", sans-serif;
+    
+
+}
+
+.formulario {
+    box-shadow: 0 0 4vh #000000;
+    border: solid 1px #D6D6D6;
+    border-radius: 5px;
+    margin: 351px;
+    width: 736px;
+    height: 1566px;
+    background-color: #ffffff;
+    z-index: 1;
+    margin-top: -100px
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    margin: 64px 0 0 64px;
+    font-weight: 700;
+    font-family: "Archivo", sans-serif;
+    font-size: 35px;
+    
+}
+
+.titulo-input {
+    margin: 64px 0 0 64px;
+}
+
+.titulo-input input {
+    display: block;
+    border: solid 1px #E6E6F0;
+    border-radius: 5px;
+    width: 608px;
+    height: 56px;
+    box-shadow: 0 0 1vh #000000;
+    margin-top: 10px;
+}
+
+
+
+input:hover {
+    box-shadow: 0 0 1vh #3762ec;
+    transition: 0.5s ease;
+}
+
+input label {
+    margin-top: -50px;
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+
+
+.link-input {
+    margin: 64px 0 0 64px;
+}
+
+.link-input input {
+    display: block;
+    border: solid 1px #E6E6F0;
+    border-radius: 5px;
+    width: 608px;
+    height: 56px;
+    box-shadow: 0 0 1vh #000000;
+    margin-top: 10px;
+}
+
+input:hover {
+    box-shadow: 0 0 1vh #3762ec;
+    transition: 0.5s ease;
+
+}
+
+
+.whatsapp-input input {
+    display: block;
+    border: solid 1px #E6E6F0;
+    border-radius: 5px;
+    width: 608px;
+    height: 56px;
+    box-shadow: 0 0 1vh #000000;
+    margin-top: 10px;
+}
+
+.whatsapp-input {
+    margin: 64px 0 0 64px;
+}
+
+input:hover {
+    box-shadow: 0 0 1vh #3762ec;
+    transition: 0.5s ease;
+
+}
